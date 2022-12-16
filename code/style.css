@@ -4,14 +4,26 @@
    box-sizing: border-box;
 }
 
+body {
+   background-color: rgba(0, 255, 255, 0.19);
+}
+
 .container {
    max-width: 600px;
-   margin: 0 auto;
+   margin: 50px auto;
    padding: 20px;
    border: 2px solid #000;
    border-radius: 12px;
-   display: flex;
+   background-color: rgba(26, 10, 151, 0.19);
 }
+
+.titles {
+   font-size: 2rem;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
 .computer {
 }
 .player {
@@ -19,4 +31,20 @@
 .result {
 }
 .btns {
+   margin-top: 20px;
+}
+
+button {
+   font-size: 1.7rem;
+   border: 1px solid transparent;
+   background-color: rgb(68, 68, 68);
+   border-radius: 13px;
+   color: #fff;
+   padding: 5px;
+}
+
+button:hover {
+   border: 1px solid green;
+   background-color: rgb(36, 216, 20);
+
 }
